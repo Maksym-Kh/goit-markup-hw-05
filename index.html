@@ -525,7 +525,7 @@
               <input
                 class="modal-action"
                 type="text"
-                name="name-input"
+                name="user-name"
                 id="user-name"
                 required
               />
@@ -570,32 +570,31 @@
             <textarea
               class="msg-input"
               name="user-comment"
-              id="comment-input"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
 
+          <!-- checkbox -->
+
           <div class="checkbox">
             <input
-              class="checkbox-input visually-hidden"
+              class="checkbox-input"
               type="checkbox"
-              name="user-policy"
+              name="user-privacy"
               value="true"
-              id="policy"
+              id="user-privacy"
               required
             />
 
-            <label class="checkbox-label" for="user-policy">
+            <label class="checkbox-label" for="user-privacy">
               <span class="checkbox-span">
                 <svg class="checkbox-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
-              </span>
-            </label>
-            <p class="privacy-policy-text">
-              I accept the terms and conditions of the
-              <a class="privacy-link" href="">Privacy Policy</a>
-            </p>
+              </span> </label
+            >I accept the terms and conditions of the
+            <a class="privacy-link" href="">Privacy Policy</a>
           </div>
           <button class="send-button" type="submit">Send</button>
         </form>
